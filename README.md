@@ -12,7 +12,7 @@ O OpenWHOQOL permite a coleta, análise e interpretação de dados do WHOQOL-BRE
 ## 2. Requisitos Funcionais (RFs)
 
 | ID | Requisito | Descrição |
-|----|------------|------------|
+|--------|------------|------------|
 | RF-001 | Autenticação de Administrador | Tela de login para acesso ao painel administrativo. |
 | RF-002 | Configuração da Pesquisa | Configuração de nome do projeto, TCLE e metadados. |
 | RF-003 | Fluxo de Coleta | Guiar o participante nas etapas de consentimento, formulário socioeconômico e WHOQOL-BREF. |

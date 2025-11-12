@@ -23,21 +23,21 @@ Os Requisitos Funcionais descrevem as funcionalidades que o sistema deve executa
     </tr>
   </thead>
   <tbody>
-    <tr><td><span style="white-space:nowrap">RF-001</span></td><td>Autenticação de Administrador</td><td>O sistema deve prover uma tela de login para acesso ao painel administrativo.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-002</span></td><td>Configuração da Pesquisa</td><td>O admin deve poder configurar o nome do projeto, TCLE, e outros metadados do estudo.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-003</span></td><td>Fluxo de Coleta do Participante</td><td>O sistema deve guiar o participante através das etapas de consentimento, formulário socioeconômico e questionário WHOQOL-BREF.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-004</span></td><td>Validação de Dados de Entrada</td><td>Todos os campos dos formulários devem ser validados para garantir o preenchimento completo e correto.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-005</span></td><td>Armazenamento Local-First</td><td>Os dados coletados devem ser persistidos primariamente no IndexedDB do navegador.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-006</span></td><td>Visualização de Dados</td><td>O admin deve poder visualizar todos os participantes e seus dados individuais em uma tabela paginada e filtrável.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-007</span></td><td>Gerenciamento de Participantes</td><td>O admin deve poder arquivar (excluir da análise) e excluir permanentemente os participantes.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-008</span></td><td>Análise Estatística Descritiva</td><td>O sistema deve calcular e exibir automaticamente estatísticas descritivas (média, DP, frequência) e gráficos.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-009</span></td><td>Análise Estatística Inferencial</td><td>O sistema deve ser capaz de executar testes avançados (Teste T, ANOVA, Correlação, Qui-Quadrado, Confiabilidade).</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-010</span></td><td>Análise com IA</td><td>O sistema deve integrar-se com a API do Google Gemini para gerar seções de Resultados, Discussão e permitir análise via chat.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-011</span></td><td>Exportação de Dados</td><td>O admin deve poder exportar dados em múltiplos formatos (CSV, TSV, XLS, JSON).</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-012</span></td><td>Importação de Dados</td><td>O sistema deve permitir a importação de participantes via arquivos JSON, CSV ou XLS.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-013</span></td><td>Geração de Dados de Teste</td><td>O admin deve poder gerar dados fictícios para fins de teste e demonstração.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-014</span></td><td>Auditoria (Logs)</td><td>O sistema deve registrar todas as ações administrativas críticas em um log de auditoria.</td></tr>
-    <tr><td><span style="white-space:nowrap">RF-015</span></td><td>Notificação por E-mail</td><td>O sistema deve ser capaz de enviar uma notificação por e-mail ao administrador a cada nova submissão, contendo os dados do participante em anexo (XLSX). O envio deve ser realizado via uma chamada de API para um endpoint externo configurável.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-001</td><td>Autenticação de Administrador</td><td>O sistema deve prover uma tela de login para acesso ao painel administrativo.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-002</td><td>Configuração da Pesquisa</td><td>O admin deve poder configurar o nome do projeto, TCLE, e outros metadados do estudo.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-003</td><td>Fluxo de Coleta do Participante</td><td>O sistema deve guiar o participante através das etapas de consentimento, formulário socioeconômico e questionário WHOQOL-BREF.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-004</td><td>Validação de Dados de Entrada</td><td>Todos os campos dos formulários devem ser validados para garantir o preenchimento completo e correto.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-005</td><td>Armazenamento Local-First</td><td>Os dados coletados devem ser persistidos primariamente no IndexedDB do navegador.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-006</td><td>Visualização de Dados</td><td>O admin deve poder visualizar todos os participantes e seus dados individuais em uma tabela paginada e filtrável.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-007</td><td>Gerenciamento de Participantes</td><td>O admin deve poder arquivar (excluir da análise) e excluir permanentemente os participantes.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-008</td><td>Análise Estatística Descritiva</td><td>O sistema deve calcular e exibir automaticamente estatísticas descritivas (média, DP, frequência) e gráficos.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-009</td><td>Análise Estatística Inferencial</td><td>O sistema deve ser capaz de executar testes avançados (Teste T, ANOVA, Correlação, Qui-Quadrado, Confiabilidade).</td></tr>
+    <tr><td style="white-space:nowrap;">RF-010</td><td>Análise com IA</td><td>O sistema deve integrar-se com a API do Google Gemini para gerar seções de Resultados, Discussão e permitir análise via chat.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-011</td><td>Exportação de Dados</td><td>O admin deve poder exportar dados em múltiplos formatos (CSV, TSV, XLS, JSON).</td></tr>
+    <tr><td style="white-space:nowrap;">RF-012</td><td>Importação de Dados</td><td>O sistema deve permitir a importação de participantes via arquivos JSON, CSV ou XLS.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-013</td><td>Geração de Dados de Teste</td><td>O admin deve poder gerar dados fictícios para fins de teste e demonstração.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-014</td><td>Auditoria (Logs)</td><td>O sistema deve registrar todas as ações administrativas críticas em um log de auditoria.</td></tr>
+    <tr><td style="white-space:nowrap;">RF-015</td><td>Notificação por E-mail</td><td>O sistema deve ser capaz de enviar uma notificação por e-mail para o administrador a cada nova submissão, contendo os dados do participante em anexo (XLSX). O envio deve ser realizado via uma chamada de API para um endpoint externo configurável.</td></tr>
   </tbody>
 </table>
 
@@ -48,13 +48,13 @@ Os Requisitos Não Funcionais definem os critérios de qualidade e operação do
 
 | ID | Categoria | Requisito | Descrição |
 |----|-----------|-----------|-----------|
-| RNF-01 | Usabilidade | Interface Responsiva | A aplicação deve ser totalmente funcional em desktops, tablets e smartphones. |
-| RNF-02 | Usabilidade | Intuitividade | O fluxo de navegação deve ser claro e requerer o mínimo de treinamento para o administrador. |
-| RNF-03 | Desempenho | Carregamento Rápido | O carregamento inicial da aplicação deve ser inferior a 3 segundos em uma conexão 3G. |
-| RNF-04 | Desempenho | Responsividade da UI | Cálculos estatísticos e interações com a UI não devem travar o navegador, mesmo com milhares de participantes. |
-| RNF-05 | Confiabilidade | Operação Offline | Todas as funcionalidades core (coleta, análise, gerenciamento) devem funcionar sem conexão à internet. |
-| RNF-06 | Portabilidade | Compatibilidade | O sistema deve ser compatível com as duas últimas versões dos navegadores: Chrome, Firefox, Safari e Edge. |
-| RNF-07 | Manutenibilidade | Código Modular | A lógica de negócio (cálculos, DB) deve ser separada da camada de apresentação (UI). |
+| <span style="white-space:nowrap;">RNF-01</span> | Usabilidade | Interface Responsiva | A aplicação deve ser totalmente funcional em desktops, tablets e smartphones. |
+| <span style="white-space:nowrap;">RNF-02</span> | Usabilidade | Intuitividade | O fluxo de navegação deve ser claro e requerer o mínimo de treinamento para o administrador. |
+| <span style="white-space:nowrap;">RNF-03</span> | Desempenho | Carregamento Rápido | O carregamento inicial da aplicação deve ser inferior a 3 segundos em uma conexão 3G. |
+| <span style="white-space:nowrap;">RNF-04</span> | Desempenho | Responsividade da UI | Cálculos estatísticos e interações com a UI não devem travar o navegador, mesmo com milhares de participantes. |
+| <span style="white-space:nowrap;">RNF-05</span> | Confiabilidade | Operação Offline | Todas as funcionalidades core (coleta, análise, gerenciamento) devem funcionar sem conexão à internet. |
+| <span style="white-space:nowrap;">RNF-06</span> | Portabilidade | Compatibilidade | O sistema deve ser compatível com as duas últimas versões dos navegadores: Chrome, Firefox, Safari e Edge. |
+| <span style="white-space:nowrap;">RNF-07</span> | Manutenibilidade | Código Modular | A lógica de negócio (cálculos, DB) deve ser separada da camada de apresentação (UI). |
 
 ---
 

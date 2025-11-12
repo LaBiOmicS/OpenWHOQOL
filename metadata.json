@@ -1,0 +1,5 @@
+{
+  "name": "OpenWHOQOL",
+  "description": "Uma aplicação web completa para administrar o questionário WHOQOL-BREF. Inclui um painel de administração para gerenciar o estudo, coletar dados, realizar análises estatísticas avançadas (descritivas, Teste-T, ANOVA, Correlação, Regressão, Qui-Quadrado, Confiabilidade) com visualização gráfica, e exportar os resultados.",
+  "requestFramePermissions": []
+}

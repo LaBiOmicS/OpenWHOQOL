@@ -11,23 +11,92 @@ O OpenWHOQOL permite a coleta, análise e interpretação de dados do WHOQOL-BRE
 
 ## 2. Requisitos Funcionais (RFs)
 
-| **ID**   | **Requisito**                   | **Descrição** |
-|----------|----------------------------------|----------------|
-| **RF-001** | Autenticação de Administrador | Tela de login para acesso ao painel administrativo. |
-| **RF-002** | Configuração da Pesquisa | Configuração de nome do projeto, TCLE e metadados. |
-| **RF-003** | Fluxo de Coleta | Guiar o participante nas etapas de consentimento, formulário socioeconômico e WHOQOL-BREF. |
-| **RF-004** | Validação de Dados | Garantir preenchimento completo e correto dos formulários. |
-| **RF-005** | Armazenamento Local-First | Persistência de dados no IndexedDB do navegador. |
-| **RF-006** | Visualização de Dados | Visualização de participantes e dados individuais em tabela paginada e filtrável. |
-| **RF-007** | Gerenciamento de Participantes | Arquivamento e exclusão permanente de participantes. |
-| **RF-008** | Análise Estatística Descritiva | Cálculo automático de médias, desvios, frequências e geração de gráficos. |
-| **RF-009** | Análise Estatística Inferencial | Execução de Teste T, ANOVA, Correlação, Qui-Quadrado e Confiabilidade. |
-| **RF-010** | Análise com IA | Integração com Google Gemini para geração de Resultados, Discussão e análise via chat. |
-| **RF-011** | Exportação de Dados | Exportar dados em CSV, TSV, XLS e JSON. |
-| **RF-012** | Importação de Dados | Importar dados via JSON, CSV ou XLS. |
-| **RF-013** | Geração de Dados de Teste | Gerar dados fictícios para teste e demonstração. |
-| **RF-014** | Auditoria (Logs) | Registro de todas as ações administrativas críticas. |
-| **RF-015** | Notificação por E-mail | Envio de e-mail ao administrador via API externa configurável. |
+<table>
+  <thead>
+    <tr>
+      <th align="left">ID</th>
+      <th align="left">Requisito</th>
+      <th align="left">Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑001</span></td>
+      <td>Autenticação de Administrador</td>
+      <td>Tela de login para acesso ao painel administrativo.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑002</span></td>
+      <td>Configuração da Pesquisa</td>
+      <td>Configuração de nome do projeto, TCLE e metadados.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑003</span></td>
+      <td>Fluxo de Coleta</td>
+      <td>Guiar o participante nas etapas de consentimento, formulário socioeconômico e WHOQOL-BREF.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑004</span></td>
+      <td>Validação de Dados</td>
+      <td>Garantir preenchimento completo e correto dos formulários.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑005</span></td>
+      <td>Armazenamento Local-First</td>
+      <td>Persistência de dados no IndexedDB do navegador.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑006</span></td>
+      <td>Visualização de Dados</td>
+      <td>Visualização de participantes e dados individuais em tabela paginada e filtrável.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑007</span></td>
+      <td>Gerenciamento de Participantes</td>
+      <td>Arquivamento e exclusão permanente de participantes.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑008</span></td>
+      <td>Análise Estatística Descritiva</td>
+      <td>Cálculo automático de médias, desvios, frequências e geração de gráficos.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑009</span></td>
+      <td>Análise Estatística Inferencial</td>
+      <td>Execução de Teste T, ANOVA, Correlação, Qui-Quadrado e Confiabilidade.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑010</span></td>
+      <td>Análise com IA</td>
+      <td>Integração com Google Gemini para geração de Resultados, Discussão e análise via chat.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑011</span></td>
+      <td>Exportação de Dados</td>
+      <td>Exportar dados em CSV, TSV, XLS e JSON.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑012</span></td>
+      <td>Importação de Dados</td>
+      <td>Importar dados via JSON, CSV ou XLS.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑013</span></td>
+      <td>Geração de Dados de Teste</td>
+      <td>Gerar dados fictícios para teste e demonstração.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑014</span></td>
+      <td>Auditoria (Logs)</td>
+      <td>Registro de todas as ações administrativas críticas.</td>
+    </tr>
+    <tr>
+      <td><span style="white-space:nowrap">RF‑015</span></td>
+      <td>Notificação por E-mail</td>
+      <td>Envio de e-mail ao administrador via API externa configurável.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
